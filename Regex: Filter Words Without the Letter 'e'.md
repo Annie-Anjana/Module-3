@@ -15,6 +15,16 @@ To write a Python program that filters out and returns all elements from a list 
 
 ## 🧾 Program
 Add code here
+```
+import re
+l1 = []
+items = ['goal', 'new', 'user', 'sit', 'eat', 'dinner']
+for i in items:
+    if not re.search(r"e", i):
+        l1.append(i)
+print("Filtered list (no 'e'):", l1)
+```
 ## Output
-
+![Screenshot 2025-04-30 135434](https://github.com/user-attachments/assets/98e3ce31-6e4e-4537-b7f8-8e062840c431)
 ## Result
+The code executed successfully.
